@@ -1,0 +1,230 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+	
+	background-color: #f2f2f2;
+}
+body>div{
+	max-width:600px;
+	min-width:320px;
+	margin: 0 auto;
+}
+.topView {
+	
+	background-image: url(../img/topView.png);
+	
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+	padding-top: 10px;
+   
+	
+	
+}
+.imageView{
+	
+	
+	margin: 0 7.5px;
+	
+    text-align: center;
+	
+	
+	
+		border-style:solid;
+  border-width: 2.5px;
+  border-color: #fe2d32;
+	
+}
+.imageView img{
+	
+	height: 47px;
+	width: 47px;
+	
+	vertical-align: middle;
+	
+	
+}
+.titleView
+{
+	
+	margin: 11px 13.5px 10px 13.5px;
+	
+	
+	color: #ffffff;
+	
+	font-size: 15px;
+	
+	
+	
+}
+
+.userView{
+	
+	
+	padding-bottom: 10px;
+	
+}
+.userView .oneView
+{
+	
+	
+	display: inline-block;
+}
+.userView .oneView img
+{
+	
+	margin-left: 13.5px;
+	width: 15px;
+	height: 15px;
+	border-style:solid;
+  border-width: 1px;
+  border-color: rgba(255, 255,255, 0.7);
+  border-radius: 50%;
+	
+	vertical-align: middle;	
+}
+.userView .oneView label
+{
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 12px;
+	color: wheat;
+/*	color: #fede3e;*/
+}
+.userView .twoView
+{
+	display: inline-block;
+	
+	float: right;
+	
+	margin-right: 15px;
+	
+}
+.userView .twoView img
+{
+	
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+}
+.userView .twoView label
+{
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 11px;
+	/*color: #fede3e;*/
+	color: wheat;
+	
+}
+.centerView {
+	
+	padding: 0 0 0 7.5px;
+	background-color:#f2f2f2;
+	
+}
+.collectCell{
+	
+	float: left;
+	padding: 7.5px 7.5px 0 0;
+	box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+	
+	
+	
+	
+}
+.collectCell .coverImageView
+{
+	
+	
+	/*background-image: url(../img/cover.jpeg);
+	
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;*/
+
+	position: relative;
+	
+}
+
+.collectCell .coverImageView .playCountView
+{
+	
+	
+	position: absolute;
+	
+	left: 7.5px;
+	bottom: 7.5px;
+	
+	
+	
+}
+.collectCell .coverImageView .playCountView img{
+	
+	width: 10px;
+	height: 10px;
+	
+	vertical-align: middle;
+	
+	
+}
+
+.collectCell .coverImageView .playCountView label
+{
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 11px;
+	color: white;
+	
+	
+	
+}
+.collectCell .titleLabel
+{
+	padding: 12.5px 7.5px;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: box;
+	line-clamp: 2;
+	letter-spacing:0!important;
+	box-orient: vertical;
+	height: 2.0rem!important;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	background-color: white;
+	color: #222222;
+	
+}
+
+.collectCell .collectCell-userView
+{
+	background-color: white;
+	padding: 0 7.5px 12.5px 7.5px;
+}
+.collectCell .collectCell-userView img
+{
+	
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	vertical-align: middle;
+	
+	
+}
+.collectCell .collectCell-userView label
+{
+	
+		vertical-align: middle;
+	margin-left: 5px;
+	font-size: 11px;
+	color: #999999;
+	
+	
+}
